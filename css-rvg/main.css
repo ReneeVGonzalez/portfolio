@@ -51,7 +51,7 @@ logo {
      color: #000000;
      font-family: Lora, serif;
      text-align: right;
-     padding-left: 80px;
+     padding-left: 40px;
      font-weight: lighter;
 }
 
@@ -59,10 +59,10 @@ logo {
 
 h1 {
   font-family: Festive Script;
-  font-size: 280px;
+  font-size: 260px;
   text-align: center;
   margin-top: 0;
-  padding-left: 80px;
+  padding-left: 0px;
 
 }
 
@@ -163,17 +163,13 @@ h4{
 #icon {
    height: 100px;
    width: 150px;
-   float: left;
+   float: center;
+   margin-left: 90px;
    display: inline-block;
-   padding-bottom: 100px;
+   padding: 5px;
    padding-top: 3px;
+   text-decoration: none;
 
-}
-
-#envelope{
-   height: 100px;
-   width: 150px;
-   display: inline-block;
 }
 
 #email {
@@ -188,40 +184,4 @@ h4{
    display: inline-block;
    list-style-type: none;
 
-}
-
-/*** CONTACT BOX ***/
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #000000;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #000000;
-}
-
-.container {
-    border-radius: 5px;
-    background-color: #968CA4;
-    padding: 10px;
-    margin-left: 50px;
-    margin-top: 180px;
 }
